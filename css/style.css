@@ -15,6 +15,12 @@
 */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+@font-face {
+  font-family: "DroidSerif";
+  src: url("../fonts/DroidSerif-Regular.ttf");
+}
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -113,7 +119,6 @@ a:focus, img:focus, button:focus, .btn:focus {
 
 header[role="header"] {
   padding-top: 60px;
-  padding-bottom: 39px
 }
 
 header[role="header"] h1 {
@@ -281,8 +286,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"], main[role="mai
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header, main[role="main-inner-wrapper"] article[role="pge-title-content"] header {
-  padding-bottom: 19px;
-  padding-top: 83px
+  padding-top: 5px
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] header h2, main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 {
@@ -292,16 +296,16 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] header h2, main
   font-weight: 800
 }
 
-main[role="main-home-wrapper"] article[role="pge-title-content"] header h2 span, main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 span {
+main[role="main-home-wrapper"] article[role="pge-title-content"] header h2, main[role="main-inner-wrapper"] article[role="pge-title-content"] header h2 {
   display: block;
-  font-size: 60px;
-  color: #025C89;
+  font-size: 50px;
+  color: #ffffff;
   padding-bottom: 15px
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] p, main[role="main-inner-wrapper"] article[role="pge-title-content"] p {
-  font-size: 13px;
-  line-height: 20px;
+  font-size: 18px;
+  line-height: 30px;
   color: #454545
 }
 
