@@ -330,16 +330,15 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] .highlight-padd
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] .highlight-two {
-  background-color: #fb5353;
+  color: #fb5353;
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] .highlight-three {
-  background-color: #f97878;
+  color: #f97878;
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] .highlight-four {
-  background-color: #fc9d9d;
-  color: #194563;
+  color: #fc9d9d;
 }
 
 /*===== footer ===*/
