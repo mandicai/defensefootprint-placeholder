@@ -85,10 +85,21 @@ blockquote:before, blockquote:after, q:before, q:after {
   height: 0;
 }
 
+body {
+  background-image:url('images/background-01.png');
+}
+
 a {
   text-decoration: none;
   outline: none;
   color: #010101;
+  transition-delay: 0s;
+  transition-duration: 0.6s;
+  transition-property: all;
+  transition-timing-function: ease;
+}
+
+input {
   transition-delay: 0s;
   transition-duration: 0.6s;
   transition-property: all;
@@ -314,6 +325,16 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] p, main[role="m
   color: #F1F3F4;
   font-size: 18px;
   line-height: 30px;
+}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] a {
+  text-decoration: underline;
+  color: #bbbbbb;
+}
+
+main[role="main-home-wrapper"] article[role="pge-title-content"] a:hover {
+  text-decoration: underline;
+  color: #fb5353;
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] b {
@@ -590,6 +611,11 @@ section[role="contact-form"] input[type="submit"] {
   margin-top: 20px;
   font-family: 'Open Sans';
   font-weight: 700;
+  background-color: #bbbbbb;
+}
+
+section[role="contact-form"] input[type="submit"]:hover {
+  color: #f1f3f4;
   background-color: #fb5353;
 }
 
