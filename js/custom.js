@@ -1,5 +1,12 @@
 $(document).ready(function() {
 
+	/* ======= Scroll to Contact ======= */
+  $("#send-message, #send-message-two").click(function() {
+    $('html,body').animate({
+        scrollTop: $("#contact-form").offset().top - 50},
+        'slow')
+  })
+
 	/* ======== Text fade ====== */
 	$('#fade-in').hide(0).fadeIn(2000)
 
