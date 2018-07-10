@@ -39,7 +39,7 @@ $(document).ready(function() {
               $('#formcarry-submit-success').append('<div class="alert alert-success alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Thanks for your interest!</div>');
             },
             error: function() {
-              $('#formcarry-submit-error').append('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Sorry, there was an error. Please email us directly at <a href="mailto:info@biobright.com">info@biobright.com</a></div>');
+              $('#formcarry-submit-error').append('<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Sorry, there was an error. Please email us directly at <a href="mailto:mandicai@gmail.com">mandicai@gmail.com</a></div>');
             }
         })
         form.reset()
