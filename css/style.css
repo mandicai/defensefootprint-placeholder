@@ -289,7 +289,7 @@ header[role="header"] ul[role="social-icons"]>li:hover a {
 /*===== main ===*/
 
 main[role="main-home-wrapper"], main[role="main-inner-wrapper"] {
-  padding-bottom: 150px
+  padding-bottom: 20px
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"], main[role="main-inner-wrapper"] article[role="pge-title-content"] {
@@ -360,6 +360,28 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] .highlight-thre
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] .highlight-four {
   color: #fc9d9d;
+}
+
+main[role="main-home-wrapper"] .arrowDiv {
+  position: relative;
+  margin-top: 15%;
+}
+
+@keyframes bouncing {
+  0% {bottom: 0;}
+  50% {bottom: 20px;}
+  100% {bottom: 0;}
+}
+
+main[role="main-home-wrapper"] .arrow {
+  animation: bouncing 1s infinite ease-in-out;
+  font-size: 50px;
+  color: #ffffff;
+  bottom: 0;
+  display: block;
+  left: 50%;
+  margin-left: -25px;
+  position: absolute;
 }
 
 /*===== footer ===*/
