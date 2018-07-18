@@ -364,7 +364,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] .highlight-four
 
 main[role="main-home-wrapper"] .arrowDiv {
   position: relative;
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 @keyframes bouncing {
