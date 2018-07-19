@@ -288,6 +288,10 @@ header[role="header"] ul[role="social-icons"]>li:hover a {
 
 /*===== main ===*/
 
+#fade-in {
+  display: none;
+}
+
 main[role="main-home-wrapper"], main[role="main-inner-wrapper"] {
   padding-bottom: 20px
 }

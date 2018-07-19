@@ -15,7 +15,7 @@ $(document).ready(function() {
   })
 
 	/* ======== Text fade ====== */
-	$('#fade-in').hide(0).fadeIn(2000)
+	$('#fade-in').fadeIn(2000)
 
 	/* ======== Contact form ====== */
 	if ($("#FORMCARRY-CONTACT-US").length) {
