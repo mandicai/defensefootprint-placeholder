@@ -21,6 +21,11 @@
   src: url("../fonts/DroidSerif-Regular.ttf");
 }
 
+@font-face {
+  font-family: "DosisLight";
+  src: url("../fonts/Dosis-Light.ttf");
+}
+
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -75,7 +80,7 @@ audio, canvas, video {
 }
 
 blockquote:before, blockquote:after, q:before, q:after {
-  content: '';
+  content: "";
   content: none;
 }
 
@@ -83,10 +88,6 @@ blockquote:before, blockquote:after, q:before, q:after {
   clear: both;
   line-height: 0;
   height: 0;
-}
-
-body {
-  background-image:url('images/background-01.png');
 }
 
 a {
@@ -123,7 +124,7 @@ a:focus, img:focus, button:focus, .btn:focus {
 }
 
 @font-face {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans, sans-serif;
 }
 
 /*===== Header ===*/
@@ -325,7 +326,7 @@ main[role="main-home-wrapper"] article[role="pge-title-content"] h3 {
 }
 
 main[role="main-home-wrapper"] article[role="pge-title-content"] p, main[role="main-inner-wrapper"] article[role="pge-title-content"] p {
-  font-family: 'DroidSerif';
+  font-family: "DosisLight";
   color: #F1F3F4;
   font-size: 18px;
   line-height: 30px;
@@ -466,7 +467,7 @@ footer[role="footer"] ul[role="social-icons"]>li:hover a {
 }
 
 footer[role="footer"] p {
-  font-family: 'DroidSerif';
+  font-family: "DosisLight";
 }
 
 /*===== About ===*/
@@ -619,7 +620,7 @@ section[role="contact-form"] h2 {
 }
 
 section[role="contact-form"] p {
-  font-family: 'DroidSerif';
+  font-family: "DosisLight";
   color: #f1f3f4;
   font-size: 15px;
 }
@@ -629,13 +630,13 @@ section[role="contact-form"] b {
 }
 
 section[role="contact-form"] form {
-  font-family: 'DroidSerif';
+  font-family: "DosisLight";
   padding-top: 30px;
 }
 
 section[role="contact-form"] input[type="submit"] {
   margin-top: 20px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 700;
   background-color: #bbbbbb;
 }
